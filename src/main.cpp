@@ -33,15 +33,15 @@ delay(3000);
 
 }
 void loop() {
-//  for (int i = 0; i < sizeof(pins)/sizeof(pins[0]); i++) {
-//     int pin = pins[i];
+ for (int i = 0; i < sizeof(pins)/sizeof(pins[0]); i++) {
+    int pin = pins[i];
 
-//     Serial.print("Test GPIO ");
-//     Serial.println(pin);
+    Serial.print("Test GPIO ");
+    Serial.println(pin);
 
-//     digitalWrite(pin, HIGH);
-//     delay(300);
-//     digitalWrite(pin, LOW);
-//     delay(300);
+    digitalWrite(pin, HIGH);
+    delay(300);
+    digitalWrite(pin, LOW);
+    delay(300);
   }
 
