@@ -20,14 +20,14 @@ void setup() {
     pinMode(pins[i], OUTPUT);
   
      }
-    digitalWrite(2, LOW);
+    digitalWrite(LED_BUILTIN, LOW);
     delay(300);
-    digitalWrite(2, HIGH);
+    digitalWrite(LED_BUILTIN, HIGH);
     delay(300);
 delay(3000);
-    digitalWrite(2, LOW);
+    digitalWrite(LED_BUILTIN, LOW);
     delay(300);
-    digitalWrite(2, HIGH);
+    digitalWrite(LED_BUILTIN, HIGH);
     delay(300);
 
 
@@ -44,4 +44,5 @@ void loop() {
     digitalWrite(pin, LOW);
     delay(300);
   }
+}
 
